@@ -1,0 +1,29 @@
+@tailwind base;
+h1 {
+  @apply text-3xl;
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-lg;
+}
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Roboto, sans-serif;
+  @apply bg-bg_primary_dark;
+  @apply text-text_primary_dark;
+}
+#__nuxt{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
