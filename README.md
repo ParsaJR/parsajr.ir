@@ -1,6 +1,8 @@
 # Content v2 Minimal Starter
-
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+### Todo: 
+- [ ]  Dark Mode / Light Mode Switch
+- [ ]  Seo Improvements
+- [ ]  i18n support (English/Persian Blog system) 
 
 ## Setup
 
