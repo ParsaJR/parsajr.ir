@@ -8,14 +8,14 @@
           </NuxtLink>
 
           <li class="inline-flex justify-center">
-            <Icon name="i-material-symbols:mode-night" size="30px"></Icon>
+            <!-- <Icon name="i-material-symbols:mode-night" size="30px"></Icon> -->
           </li>
         </ui>
       </div>
       <div>
         <ul class="list-none flex items-center gap-4">
           <li class="inline-flex">
-            <icon name="i-twemoji:flag-iran" size="30px"></icon>
+            <!-- <icon name="i-twemoji:flag-iran" size="30px"></icon> -->
           </li>
           <NuxtLink to="/blogs">
             <li class="inline-flex">Blog</li>
