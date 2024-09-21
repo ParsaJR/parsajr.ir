@@ -16,8 +16,12 @@ h4 {
 
 html {
   font-family: Roboto, sans-serif;
-  @apply bg-bg_primary_dark;
-  @apply text-text_primary_dark;
+  /* @apply bg-bg_primary_dark;
+  @apply text-text_primary_dark; */
+}
+html.dark {
+   @apply bg-bg_primary_dark;
+   @apply text-text_primary_dark;
 }
 #__nuxt{
     min-height: 100vh;

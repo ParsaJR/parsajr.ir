@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col gap-3">
         <h3>About Me</h3>
-        <hr class="h-1 border-0 bg-gray-500 rounded-lg">
+        <hr class="h-1 border-0 dark:bg-gray-500 bg-gray-300 rounded-lg">
     </div>
     <div class="py-2 px-1">
-        <p class="text-gray-300">I have always found it hard to write about myself.</p>
-        <p class="text-gray-300">I try to do it in a list. So, it goes like this:</p>
+        <p class="dark:text-gray-300 text-gray-700">I have always found it hard to write about myself.</p>
+        <p class="dark:text-gray-300 text-gray-700">I try to do it in a list. So, it goes like this:</p>
         <h4 class="font-bold pt-2">Life in a Nutshell</h4>
         <ul class="list-disc list-inside p-3 flex flex-col gap-5">
             <li>Expert at the basics — like drinking water and food</li>

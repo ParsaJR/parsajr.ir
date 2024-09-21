@@ -3,7 +3,6 @@ import type { BlogPost } from '~/types/blog';
 
 const path = useRoute();
 
-console.log('Fetching content for path:', path);
 const { data: articles, error } = await useAsyncData(`blog-post-${path}`, () => queryContent(path.fullPath).findOne())
 
 const article = computed<BlogPost>(() => {

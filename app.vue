@@ -1,3 +1,19 @@
+<script setup lang="ts">
+const colorMode = useColorMode();
+
+function toggleColorTheme() {
+  switch (colorMode.preference) {
+    case 'light':
+      colorMode.preference = 'dark';
+      break;
+    case 'dark':
+      colorMode.preference = 'light';
+      break
+    default:
+      break;
+  }
+}
+</script>
 <template>
   <div class="container max-w-5xl mx-auto px-10 w-screen h-full">
     <header class="pt-6 pb-8 flex justify-between">
@@ -7,9 +23,12 @@
             <li class="inline-flex justify-center">Parsa Junior</li>
           </NuxtLink>
 
-          <li class="inline-flex justify-center">
-            <!-- <Icon name="i-material-symbols:mode-night" size="30px"></Icon> -->
-          </li>
+          <button @click="toggleColorTheme">
+            <li class="inline-flex justify-center">
+              <Icon v-if="colorMode.preference === 'dark'" name="i-material-symbols:mode-night" size="30px"></Icon>
+              <Icon v-if="colorMode.preference === 'light'" name="i-material-symbols:wb-sunny" size="30px"></Icon>
+            </li>
+          </button>
         </ul>
       </div>
       <div>

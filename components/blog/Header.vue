@@ -19,7 +19,7 @@ const { title = 'no-title', date = 'no-date', alt = '', description = 'no descri
         <NuxtImg :src="image" :alt="alt" class="rounded-2xl"></NuxtImg>
     </div>
     <div class="m-2 text-center">
-        <p class="text-xs text-gray-400 md:text-lg">{{ description }}</p>
+        <p class="text-xs dark:text-gray-400 text-gray-600 md:text-lg">{{ description }}</p>
     </div>
     <div class="flex w-full justify-center text-xs md:text-base my-5">
         <div class="justify-center items-center md:flex gap-10 content-center">
@@ -27,7 +27,7 @@ const { title = 'no-title', date = 'no-date', alt = '', description = 'no descri
                 <LogoDate /> <span>{{ date }}</span>
             </div>
             <div class="flex items-center my-5 gap-2">
-                <LogoTag /> <span class="bg-gray-700 rounded-md px-2 py-0.5" v-for="tag in tags">{{
+                <LogoTag /> <span class="dark:bg-gray-700 bg-gray-300 rounded-md px-2 py-0.5" v-for="tag in tags">{{
                     tag }}</span>
             </div>
 

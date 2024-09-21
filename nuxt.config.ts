@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
+    "@nuxtjs/color-mode",
   ],
   tailwindcss: {
     config: {
@@ -20,16 +21,20 @@ export default defineNuxtConfig({
         },
       },
     },
-
   },
   routeRules: {
     "/": { prerender: true },
   },
   content: {
-    highlight:{
-      theme: 'github-dark'
-    }
+    highlight: {
+      theme: "github-dark",
+    },
   },
-
+  colorMode: {
+    preference: "dark",
+    fallback: "dark",
+    storage: "localStorage",
+    classSuffix: "",
+  },
   compatibilityDate: "2024-09-08",
 });

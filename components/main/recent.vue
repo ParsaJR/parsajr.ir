@@ -20,7 +20,7 @@ const formattedData = computed(() => {
         <Icon name="i-carbon:recently-viewed" size="20px"></Icon>
         <h3 class="font-bold">Recent Posts</h3>
     </div>
-        <hr class="h-1 my-3 border-0 bg-gray-500 rounded-lg">
+        <hr class="h-1 my-3 border-0 dark:bg-gray-500 bg-gray-300 rounded-lg">
     
     <template v-for="post in formattedData" :key="post.title">
         <BlogCard :title="post.title" :path="post.path" :description="post.description" :image="post.image" :date="post.date" :draft="post.draft" :tags="post.tags" />
