@@ -23,6 +23,10 @@ html.dark {
    @apply bg-bg_primary_dark;
    @apply text-text_primary_dark;
 }
+html.light{
+  @apply bg-bg_primary_light;
+  @apply text-text_primary_light;
+}
 #__nuxt{
     min-height: 100vh;
     display: flex;

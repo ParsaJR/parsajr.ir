@@ -10,6 +10,7 @@ function toggleColorTheme() {
       colorMode.preference = 'light';
       break
     default:
+      colorMode.preference = 'dark';
       break;
   }
 }
@@ -26,7 +27,7 @@ function toggleColorTheme() {
           <button @click="toggleColorTheme">
             <li class="inline-flex justify-center">
               <Icon v-if="colorMode.preference === 'dark'" name="i-material-symbols:mode-night" size="30px"></Icon>
-              <Icon v-if="colorMode.preference === 'light'" name="i-material-symbols:wb-sunny" size="30px"></Icon>
+              <Icon v-else name="i-material-symbols:wb-sunny" size="30px"></Icon>
             </li>
           </button>
         </ul>
