@@ -2,7 +2,7 @@
   <div class="container max-w-5xl mx-auto px-10 w-screen h-full">
     <header class="pt-6 pb-8 flex justify-between">
       <div class="inline-block">
-        <ui class="list-none flex items-center gap-2">
+        <ul class="list-none flex items-center gap-2">
           <NuxtLink to="/">
             <li class="inline-flex justify-center">Parsa Junior</li>
           </NuxtLink>
@@ -10,7 +10,7 @@
           <li class="inline-flex justify-center">
             <!-- <Icon name="i-material-symbols:mode-night" size="30px"></Icon> -->
           </li>
-        </ui>
+        </ul>
       </div>
       <div>
         <ul class="list-none flex items-center gap-4">

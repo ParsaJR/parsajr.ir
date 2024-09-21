@@ -1,8 +1,17 @@
-# Content v2 Minimal Starter
+# My Personal Blog/Website
+
 ### Todo: 
-- [ ]  Dark Mode / Light Mode Switch
+- [*]  Dark Mode / Light Mode Switch
 - [ ]  Seo Improvements
 - [ ]  i18n support (English/Persian Blog system) 
+
+## Notable Tools
+
+- Vue 3
+- Nuxt 3
+- Nuxt-Content 2
+- Tailwind CSS
+- [And ...](https://github.com/ParsaJR/ParsaJR.ORG/blob/main/package.json)
 
 ## Setup
 
