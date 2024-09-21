@@ -1,7 +1,7 @@
 # My Personal Blog/Website
 
 ### Todo: 
-- [*]  Dark Mode / Light Mode Switch
+- [x]  Dark Mode / Light Mode Switch
 - [ ]  Seo Improvements
 - [ ]  i18n support (English/Persian Blog system) 
 
