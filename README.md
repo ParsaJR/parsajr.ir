@@ -3,6 +3,7 @@
 ### Todo: 
 - [x]  Dark Mode / Light Mode Switch
 - [ ]  Seo Improvements
+- [ ]  Categories & Search option
 - [ ]  i18n support (English/Persian Blog system) 
 
 ## Notable Tools
