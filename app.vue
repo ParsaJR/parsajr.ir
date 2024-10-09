@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
 
+useHead({
+  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+})
+
 function toggleColorTheme() {
   switch (colorMode.preference) {
     case 'light':

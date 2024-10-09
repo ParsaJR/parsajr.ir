@@ -1,3 +1,16 @@
+<script setup lang="ts">
+
+useHead({
+    title: 'About | ParsaJR',
+    meta: [
+        {
+            name: 'description',
+            content: 'Some information About me'
+        }
+    ]
+})
+
+</script>
 <template>
     <div class="flex flex-col gap-3">
         <h3>About Me</h3>

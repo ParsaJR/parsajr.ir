@@ -17,6 +17,15 @@ const article = computed<BlogPost>(() => {
     }
 })
 
+useHead({
+    title: article.value.title,
+    meta: [
+        {
+            name: 'description',
+            content: article.value.description
+        }
+    ]
+})
 
 </script>
 <template>

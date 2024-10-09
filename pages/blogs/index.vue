@@ -13,6 +13,16 @@ const formattedData = computed(() => {
         }
     })
 })
+
+useHead({
+    title: 'Blog Posts | ParsaJR',
+    meta: [
+        {
+            name: 'description',
+            content: 'Here you will find all the blog posts i have written.'
+        }
+    ]
+})
 </script>
 
 <template>
