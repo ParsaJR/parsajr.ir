@@ -39,3 +39,20 @@ useHead({
     </div>
     <BlogSeprator></BlogSeprator>
 </template>
+<style scoped>
+ :deep(p > a) {
+   text-decoration: none;
+    box-shadow:
+        inset 0 -2px 0 #42b883,
+        0 1px 0 #42b883;
+    transition: box-shadow 0.3s;
+    color: inherit;
+    overflow: hidden;
+    font-weight: bold;
+}
+:deep(p > a:hover) {
+    box-shadow:
+        inset 0 -30px 0 #42b883,
+        0 1px 0 #42b883;
+}
+</style>
