@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { BlogPost } from '~/types/blog';
 
+
 const path = useRoute();
 
 const { data: articles, error } = await useAsyncData(`blog-post-${path}`, () => queryContent(path.fullPath).findOne())
@@ -40,7 +41,7 @@ useHead({
     <BlogSeprator></BlogSeprator>
 </template>
 <style scoped>
- :deep(p > a) {
+ :deep(a:not(h2 > a)) {
    text-decoration: none;
     box-shadow:
         inset 0 -2px 0 #42b883,
@@ -50,7 +51,7 @@ useHead({
     overflow: hidden;
     font-weight: bold;
 }
-:deep(p > a:hover) {
+ :deep(a:not(h2>a)):hover{
     box-shadow:
         inset 0 -30px 0 #42b883,
         0 1px 0 #42b883;
