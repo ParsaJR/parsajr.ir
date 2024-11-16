@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "@nuxtjs/color-mode",
+    "@nuxthq/studio",
   ],
   tailwindcss: {
     config: {
