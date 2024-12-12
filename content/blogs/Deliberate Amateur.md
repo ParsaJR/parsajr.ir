@@ -1,14 +1,14 @@
 ---
-title: When Less of the Same Is More
+title: Improvise, Adapt, Excel
 date: 16th Nov 2024
-description: jack of all trades, master of none.
+description: Some Insights from the book "Range"
 image: /blog-images/deliberate_ameteur.jpg
 tags:
   - books
 draft: false
 ---
 
-# When Less of the Same Is More
+# Range
 
 David Epstein in ["Range"](https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484) examined the world’s most successful athletes, artists, musicians, inventors, forecasters and scientists. He discovered that in most fields—especially those that are complex and unpredictable(has a wicked environment)—generalists, not specialists, are primed to excel.
 
@@ -16,9 +16,9 @@ I will try to write some summery of chapter 3rd of this book.
 
 ## Ospedale della Pietà
 
-Chapter 3 begins with the story of the _‘Ospedale della Pieta’_ in Baroque Venice (17th/18th c.) which was an orphanage that trained abandoned girls in music. A group of Venetian nuns called the Consorelle di Santa Maria dell'Umiltà established this charitable institution for orphans and abandoned girls in the fourteenth century. By the seventeenth and eighteenth centuries, the Pietà and the three other charitable Ospedali Grandi were well known for its all-female musical ensembles that attracted tourists and patrons from around Europe.
+Chapter 3 begins with the story of the &#x5F;‘Ospedale della Pieta’_ in Baroque Venice (17th/18th c.) which was an orphanage that trained abandoned girls in music. A group of Venetian nuns called the Consorelle di Santa Maria dell'Umiltà established this charitable institution for orphans and abandoned girls in the fourteenth century. By the seventeenth and eighteenth centuries, the Pietà and the three other charitable Ospedali Grandi were well known for its all-female musical ensembles that attracted tourists and patrons from around Europe.
 
-Here, one of them is _‘Figlie di coro’._  it was the all-female music ensemble that were highly acclaimed, popular, and influential in defining an entire musical era. These girls were the seventh-century equivalent of rock stars.
+Here, one of them is &#x5F;‘Figlie di coro’._ it was the all-female music ensemble that were highly acclaimed, popular, and influential in defining an entire musical era. These girls were the seventh-century equivalent of rock stars.
 
 Figlie took singing lessons, and learned to play every instrument their institution owned. it helped that they were paid for learning new skills.
 
@@ -30,9 +30,9 @@ The first was in 1950 in Chicago, when he was 13 and stumbled across a guitar re
 
 During a show when Cecchini was 23, one of Belafonte’s stage dancers stepped on the cable that connected his guitar to an amplifier. His instrument was reduced to a whisper. “Harry freaked out,” Cecchini recalled. “He said, ‘Get rid of that thing and get yourself a classical guitar!’” Getting one was easy, but he had been using a pick, and for acoustic he had to learn fingering, so the trouble was learning to play it on tour.
 
-He fell in love with the instrument, and by 31 was so adept that he was chosen as the soloist to play a concerto by none other than Vivaldi accompanied by an orchestra for a crowd in Chicago’s Grant Park. The next day, the _Chicago Tribune_’s music critic began his review: “Despite the ever‑increasing number of enthusiasts who untiringly promote the resurrection of the guitar as a classical instrument, there are but few men who possess the talent and patience to master what remains one of the most beautiful but obstinately difficult of all instruments.” Cecchini, he continued, “proved to be one of those few.”
+He fell in love with the instrument, and by 31 was so adept that he was chosen as the soloist to play a concerto by none other than Vivaldi accompanied by an orchestra for a crowd in Chicago’s Grant Park. The next day, the &#x5F;Chicago Tribune_’s music critic began his review: “Despite the ever‑increasing number of enthusiasts who untiringly promote the resurrection of the guitar as a classical instrument, there are but few men who possess the talent and patience to master what remains one of the most beautiful but obstinately difficult of all instruments.” Cecchini, he continued, “proved to be one of those few.”
 
-Despite his late and haphazard start, Cecchini also became a renowned teacher of both jazz and classical guitar. Students traveled from out of state to pick his brain, and by the early 1980s lines formed down the stairs of his Chicago school in the evenings. His own formal training, of course, had been those free clarinet lessons. “I’d say I’m 98 percent self‑taught,” he told me. **He switched between instruments and found his way through trial and error.**
+Despite his late and haphazard start, Cecchini also became a renowned teacher of both jazz and classical guitar. Students traveled from out of state to pick his brain, and by the early 1980s lines formed down the stairs of his Chicago school in the evenings. His own formal training, of course, had been those free clarinet lessons. “I’d say I’m 98 percent self‑taught,” he told me. &#x2A;*He switched between instruments and found his way through trial and error.**
 
 ## Breaking Convention - Case "Django Reinhardt"
 
