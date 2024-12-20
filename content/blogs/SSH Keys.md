@@ -1,0 +1,88 @@
+---
+title: SSH Keys
+date: 20th Dec 2024
+description: How to setup SSH Keys in OpenSSH server
+image: /blog-images/1_FdUZn4O0swrqgpiQoLTJOw.png
+tags:
+  - linux
+  - devops
+draft: false
+---
+
+## SSH Keys
+
+[Previously](https://parsajr.org/blogs/what-is-ssh) we learned what the ssh is (in more general terms, actually).
+
+now we're going to look at SSH Keys in little more practical way.
+
+SSH keys are a pair of cryptographic keys used for secure access to remote systems over the SSH (Secure Shell) protocol. They provide a secure and **more convenient** method of authentication compared to traditional password-based logins.
+
+## Scenarios
+
+Well, at first these concepts like (ssh keys) are somewhat vague. (if you wasn't work with it before).
+
+because of it, I'm writing some scenarios that can be handled with leveraging of SSH Keys.
+
+- Parsa is a full-stack developer working for a tech company. In addition of software development, his job also requires him to access (ssh into) multiple servers daily. Each of these servers have a strong, unique password for security purposes. To deal with the difficulty of remembering all these passwords, Parsa often end up with writing them down on sticky notes or using a simple password manager, **which obviously poses a security risk**.
+- Parsa is configuring the [continuous delivery (CD)](Continuous%20delivery) process for his web application. The application's Docker image is automatically built from the Dockerfile and pushed to the Docker Hub registry. At the end of the CD process, a script on the server running the application is executed to pull the newer Docker image. Parsa uses his user password for the server to configure this last part of the CD process.
+
+## Configuring SSH Keys
+
+In this process we suppose you have OpenSSH server on your server already configured.
+
+SSH keys are using [asymmetric encryption](https://www.youtube.com/watch?v=AQDCe585Lnc). In asymmetric encryption, two keys are involved: a public key and a private key.
+
+**Step 1: Generate SSH Key Pair**
+
+you will be using the **ssh-keygen** package in order to create your key pairs(public and private key) , which is included with the standard OpenSSH suite.
+
+so go ahead an enter the command below.
+
+```bash
+ssh-keygen
+```
+
+this command will guides you through the steps and asks you any neccecary questions.
+
+If you had previously generated an SSH key pair, you may see a prompt that looks like this:
+
+```bash
+/home/yourusername/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+```
+
+if you press "yes" you will overwrite the existing SSH private key file located at `~/.ssh/id_rsa`.
+
+in this process, its good to know these tips:
+
+- the RSA or Ed25519 key types are fine for general purposes. Also OpenSSH supports both of them.
+- Specifying passphrase is optional. You can enter a passphrase to add an extra layer of security to your private key. It doesn't need to be a hard password. The SSH key password exists as another layer of protection against unauthorized access. You should consider the risks associated with your private key being exposed. (It is mostly based on your situation)
+
+After going through the entire process, you now have a public and private key that you can use for authentication. You can find them in the folder you specified during this process.
+
+**Step 2: Copying an SSH Public Key to Your Server**
+
+There are multiple ways to upload your public key to your remote SSH server.
+
+Simplest way is using the utility called **ssh-copy-id** that is also comes with OpenSSH suite.
+
+To copy your public key to the remote server, use the following command:
+
+```bash
+ssh-copy-id username@server_ip
+```
+
+Replace `username` with your actual username on the remote server and `server_ip` with the server's IP address or hostname.
+
+You will be prompted to enter the password for the specified user on the remote server. This is the last time you will need to enter a password for SSH access if everything is set up correctly.
+
+After entering your password, you should see a message indicating that the key has been added to the `authorized_keys` file on the remote server.
+
+```text
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'username@203.0.113.1'"
+and check to make sure that only the key(s) you wanted were added.    
+```
+
+At this point, your public key has been uploaded to the remote server, and you should be able to SSH into that server without needing to use a password.
