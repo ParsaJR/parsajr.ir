@@ -2,6 +2,7 @@
 
 ### Todo: 
 - [x]  Dark Mode / Light Mode Switch
+- [ ]  Table of content
 - [ ]  Seo Improvements
 - [ ]  Categories & Search option
 - [ ]  i18n support (English/Persian Blog system) 
