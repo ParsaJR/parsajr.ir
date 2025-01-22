@@ -19,7 +19,7 @@ const { path = '/', title = 'no-title', date = 'no-date', description = 'no-desc
         <div class="ml-2 mt-3">
             <h3 class="text-ellipsis line-clamp-2">{{ title }}</h3>
 
-            <p class="font-thin text-gray-600 dark:text-gray-300 py-1">{{ description }}</p>
+            <p class="text-gray-600 dark:text-gray-300 py-1">{{ description }}</p>
             <p class="flex items-center gap-1">
                 <LogoDate /> {{ date }}
             </p>
