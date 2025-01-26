@@ -29,7 +29,7 @@ function toggleColorTheme() {
 						<li class="inline-flex justify-center">Parsa Junior</li>
 					</NuxtLink>
 
-					<button @click="toggleColorTheme">
+					<button aria-label="toggle color theme" @click="toggleColorTheme">
 						<li class="inline-flex justify-center">
 							<Icon v-if="colorMode.preference === 'dark'"
 								name="i-material-symbols:mode-night" size="30px"></Icon>
