@@ -21,7 +21,7 @@ function toggleColorTheme() {
 </script>
 <template>
 	<NuxtLoadingIndicator color="#00dc82" :throttle="100" />
-	<div class="container max-w-5xl mx-auto px-10 w-screen h-full">
+	<div class="container max-w-5xl mx-auto px-8 w-screen h-full">
 		<header class="pt-6 pb-8 flex justify-between">
 			<div class="inline-block">
 				<ul class="list-none flex items-center gap-2">
