@@ -14,6 +14,8 @@ useHead({
   ],
 });
 
+useHead({});
+
 function toggleColorTheme() {
   switch (colorMode.preference) {
     case "light":
