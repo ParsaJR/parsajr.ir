@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const data = await useAsyncData('recent-post', () => queryContent('/blogs').sort({_id: -1}).limit(3).find())
+const data = await useAsyncData('recent-post', () => queryContent('/blogs').sort({_id: -1}).where({draft:false}).limit(3).find())
 
 const formattedData = computed(() => {
     return data.data.value?.map((article) => {
