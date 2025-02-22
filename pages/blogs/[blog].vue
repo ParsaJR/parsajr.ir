@@ -7,7 +7,9 @@ const path = useRoute();
 const { data: articles, error } = await useAsyncData(`blog-post-${path}`, () => queryContent(path.fullPath).findOne())
 
 
-if(!articles.value) await navigateTo('/404');
+if(!articles.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
+
+
 
 const article = computed<BlogPost>(() => {
     return {
