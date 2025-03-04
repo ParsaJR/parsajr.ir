@@ -7,7 +7,7 @@ image: /blog-images/wikipedia-logo-reproducao.webp
 alt: ""
 tags:
   - internet
-draft: "false"
+draft: false
 ---
 
 ## "Amir Doolab"
