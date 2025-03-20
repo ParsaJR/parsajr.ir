@@ -12,13 +12,13 @@
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/icon": "^1.11.0",
     "@nuxt/image": "^1.10.0",
-    "@nuxt/kit": "^3.16.0",
+    "@nuxt/kit": "^3.16.1",
     "@nuxthq/studio": "^2.2.1",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/robots": "^5.2.8",
     "@nuxtjs/sitemap": "^7.2.9",
     "@nuxtjs/tailwindcss": "^6.13.2",
-    "nuxt": "^3.16.0"
+    "nuxt": "^3.16.1"
   },
   "devDependencies": {
     "@iconify-json/material-symbols": "^1.2.16",
