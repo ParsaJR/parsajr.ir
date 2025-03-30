@@ -1,5 +1,5 @@
 <template>
-	<div class="flex items-center pl-4 text-sm text-gray-800 gray-300 rounded-lg bg-gray-200 dark:bg-neutral-800 dark:text-gray-300 dark:border-gray-600"
+	<div class="flex px-4 items-center pl-4 text-sm text-gray-800 gray-300 rounded-lg bg-gray-200 dark:bg-neutral-800 dark:text-gray-300 dark:border-gray-600"
 		role="alert">
 		<svg class="flex-shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
 			fill="currentColor" viewBox="0 0 20 20">
