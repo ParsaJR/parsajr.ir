@@ -7,7 +7,7 @@ image: /blog-images/cows.png
 alt: cows
 tags:
   - books
-draft: ""
+draft: false
 ---
 
 ## To Love or to eat?
@@ -165,13 +165,13 @@ Currently, we use the term “meat eater” to describe anyone who is not vegan 
 
 I think this invisible belief system is what i call **"Carnism".**
 
-****Carnism is the belief system that conditions us to eat certain animals.
+\*\*\*\*Carnism is the belief system that conditions us to eat certain animals.
 
 We tend to view the mainstream way of life as a reflection of universal values. Yet what we consider normal is, in fact, nothing more than the beliefs and behaviors of the majority.
 
 Before the scientific revolution, for example, mainstream European beliefs held that the sky was made up of heavenly spheres that revolved around the earth, that the earth was the exalted center of the universe. This belief was so ingrained that to proclaim otherwise, as did Copernicus, and later Galileo, was to risk death.
 
-**So what we refer to as mainstream is simply another way to describe an ideology that is so widespread—so** ***entrenched*****—that its assumptions and practices are seen as simply common sense.**
+**So what we refer to as mainstream is simply another way to describe an ideology that is so widespread—so** ***entrenched***\*\*—that its assumptions and practices are seen as simply common sense.\*\*
 
 When an ideology is entrenched, it is essentially invisible.
 
