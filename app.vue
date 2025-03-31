@@ -83,7 +83,7 @@ function toggleColorTheme() {
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10 py-2"
     >
-      <p class="text-xs md:text-sm">Parsa • © 2024 • No Right is reserved.</p>
+      <p class="text-xs md:text-sm">Parsa • © 2025 • No Right is reserved.</p>
     </div>
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10"
