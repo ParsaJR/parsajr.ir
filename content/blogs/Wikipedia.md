@@ -52,8 +52,10 @@ I was wondering Why isn't Wikipedia full of false information, since everyone ca
 
 ## Conclusion
 
-**Academic Point-of-view**: Yes. Wikipedia is not a reliable source. But that doesn’t make it useless. It is a good choice for starting point.
+**If you are reading about Academic things related to science and etc**: Yes. Wikipedia is not a reliable source. But that doesn’t make it useless. It is a good choice for starting point.
 
-**Controversial Topics Point-of-view**: Think of Wikipedia as some Repository that sums up the mainstream news media.
+**If you are reading about Controversial topics e.g. Gender Identity and Trans Rights** : Think of Wikipedia as some Repository that sums up the mainstream news media.
+
+**anything else:** I think is mostly fine to read from Wikipedia as long as you keeping your critical thinking skills active.
 
 [Thank you for taking the time to read this post!]
