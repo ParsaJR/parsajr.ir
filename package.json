@@ -21,6 +21,9 @@
     "nuxt": "^3.16.1"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.2.8",
+    "@iconify-json/grommet-icons": "^1.2.1",
+    "@iconify-json/logos": "^1.2.4",
     "@iconify-json/material-symbols": "^1.2.17",
     "@iconify-json/ph": "^1.2.2",
     "@tailwindcss/typography": "^0.5.16"

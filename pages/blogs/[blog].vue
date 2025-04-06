@@ -4,7 +4,7 @@ import type { BlogPost } from '~/types/blog';
 
 const path = useRoute();
 
-const { data: articles, error } = await useAsyncData(`blog-post-${path}`, () => queryContent(path.fullPath).findOne())
+const { data: articles, error } = await useAsyncData(`blog-post-${path.fullPath}`, () => queryContent(path.fullPath).findOne())
 
 
 if(!articles.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 

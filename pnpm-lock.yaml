@@ -42,6 +42,15 @@ importers:
         specifier: ^3.16.1
         version: 3.16.1(@parcel/watcher@2.5.1)(db0@0.3.1)(ioredis@5.6.0)(magicast@0.3.5)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.2(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
     devDependencies:
+      '@iconify-json/carbon':
+        specifier: ^1.2.8
+        version: 1.2.8
+      '@iconify-json/grommet-icons':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/logos':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@iconify-json/material-symbols':
         specifier: ^1.2.17
         version: 1.2.17
@@ -519,6 +528,15 @@ packages:
   '@fastify/accept-negotiator@1.1.0':
     resolution: {integrity: sha512-OIHZrb2ImZ7XG85HXOONLcJWGosv7sIvM2ifAPQVhg9Lv7qdmMBNVaai4QTdyuaqbKM5eO6sLSQOYI7wEQeCJQ==}
     engines: {node: '>=14'}
+
+  '@iconify-json/carbon@1.2.8':
+    resolution: {integrity: sha512-6xh4YiFBz6qoSnB3XMe23WvjTJroDFXB17J1MbiT7nATFe+70+em1acRXr8hgP/gYpwFMHFc4IvjA/IPTPnTzg==}
+
+  '@iconify-json/grommet-icons@1.2.1':
+    resolution: {integrity: sha512-x5RT+J4QIUUsgLobgBXjaKp+gpjIy1fMyBSdbhU5nv8F5it3tkmqj2/U2jt8KRgjVnlIgvKqKsGVll48flMnew==}
+
+  '@iconify-json/logos@1.2.4':
+    resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
 
   '@iconify-json/material-symbols@1.2.17':
     resolution: {integrity: sha512-hKb+Ii5cqLXXefYMxUB2jIc8BNqxixQogud4KU/fn0F4puM1iCdCF2lFV+0U8wnJ6dZIx6E+w8Ree4bIT7To+A==}
@@ -4832,6 +4850,18 @@ snapshots:
 
   '@fastify/accept-negotiator@1.1.0':
     optional: true
+
+  '@iconify-json/carbon@1.2.8':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/grommet-icons@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/logos@1.2.4':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/material-symbols@1.2.17':
     dependencies:
