@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	routeRules: {"/blogs/**": {prerender: true},},
+	routeRules: {"/blogs/**": {prerender: true},"/":{prerender: true}},
 	app: {
 		head: {
 			htmlAttrs: {
@@ -9,6 +9,7 @@ export default defineNuxtConfig({
 			}
 		}
 	},
+	experimental:{payloadExtraction: true},
 	modules: [
 		"@nuxt/content",
 		"@nuxt/fonts",
@@ -34,9 +35,6 @@ export default defineNuxtConfig({
 				},
 			},
 		},
-	},
-	routeRules: {
-		"/": { prerender: true },
 	},
 	content: {
 		highlight: {
