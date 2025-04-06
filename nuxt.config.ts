@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	routeRules: {"/":{prerender: true}},
+	nitro:{
+		prerender:{
+			crawlLinks: true,
+			routes: ["/sitemap.xml","/robots.txt"]
+		}
+	},
 	app: {
 		head: {
 			htmlAttrs: {
