@@ -20,11 +20,6 @@ export default defineNuxtConfig({
 		"@nuxtjs/robots",
 		"@nuxtjs/sitemap"
 	],
-	nitro:{
-		prerender: {
-			routes: ['/']
-		}
-	},
 	tailwindcss: {
 		config: {
 			theme: {
