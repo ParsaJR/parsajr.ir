@@ -59,4 +59,4 @@ The speaker in the video said something like this (in directly): "All that you n
 
 ## Wrapping up
 
-My experience with Linkedin was like a yet another social media (much like Facebook) + some social networking capabilities that are really fade out with such a contents... in several month that i was active on LinkedIn, the most rare activities are, the things that was related to work actually. I think it's better to stick with my
+My experience with Linkedin was like a yet another social media (much like Facebook) + some social networking capabilities that are really fade out with such a contents... in several month that i was active on LinkedIn, the most rare activities are, the things that was related to work actually.
