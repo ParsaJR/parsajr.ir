@@ -47,8 +47,6 @@ For example:
 
 ## Do i really need this thing?
 
-Is the problem with myself?
-
 Is LinkedIn vital to my success in my career?
 
 I don't know. But i feel focusing on my skills are the right way **for now**.
