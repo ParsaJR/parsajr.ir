@@ -1,12 +1,12 @@
 ---
 title: Linkedin
 date: 10th Apr 2025
-description: Things that i consider strange for a professional social platform
+description: Things that I consider strange for a professional social platform
 image: /blog-images/cows.png
 alt: ""
 tags:
   - test
-draft: "true"
+draft: false
 ---
 
 ## Linkedin
@@ -47,15 +47,15 @@ For example:
 
 ## Do i really need this thing?
 
-Is the problem with myself? the fact that i don't have anyone professional to connect with at first place cause this strange experience?
+Is the problem with myself?
 
-**Is LinkedIn vital to my success in my career?**
+Is LinkedIn vital to my success in my career?
 
 I don't know. But i feel focusing on my skills are the right way **for now**.
 
 i've watched a video about quitting Social Media and it is somehow relates to [this kind of objections]() for using social media.
 
-The speaker in the video said something like this (in directly): "All that you need for landing a good job, Is a good amount of deep work. Cause everything in the market falls in place like that."
+The speaker in the video said something like this (in directly): "All that you need for landing a good job, Is a good amount of deep work. Cause everything in the market falls in place like that. People will find you. you don't need things like self-presentation like this. "
 
 ## Wrapping up
 
