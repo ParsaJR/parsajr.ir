@@ -1,11 +1,11 @@
 ---
 title: Linkedin
-date: 10th Apr 2025
+date: 9th Apr 2025
 description: Things that I consider strange for a professional social platform
 image: /blog-images/cows.png
 alt: ""
 tags:
-  - test
+  - Internet
 draft: false
 ---
 
