@@ -51,7 +51,7 @@ Is LinkedIn vital to my success in my career?
 
 I don't know. But i feel focusing on my skills are the right way **for now**.
 
-i've watched a video about quitting Social Media and it is somehow relates to [this kind of objections]() for using social media.
+i've watched a video about quitting Social Media and it is somehow relates to [this kind of objections](https://youtu.be/3E7hkPZ-HTk?si=xcdO0hexCNoZpj14\&t=281) for using social media.
 
 The speaker in the video said something like this (in directly): "All that you need for landing a good job, Is a good amount of deep work. Cause everything in the market falls in place like that. People will find you. you don't need things like self-presentation like this. "
 
