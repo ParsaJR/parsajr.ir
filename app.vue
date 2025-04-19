@@ -89,7 +89,7 @@ function toggleColorTheme() {
       class="container mx-auto max-w-5xl flex items-center justify-center px-10"
     >
       <p class="text-xs md:text-sm">
-        Built with
+        Powered By 
         <a href="https://nuxt.com">
           <Icon name="i-logos-nuxt-icon"></Icon>
         </a>
