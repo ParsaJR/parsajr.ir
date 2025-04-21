@@ -16,7 +16,7 @@ The concept of free speech interpreted differently based on religious, political
 ## Free-Speech in the USA context
 
 ::info
-free speech as a legal right is *not originally American*, but the strongest and clearest modern form of it *did* come from the U.S. Constitution.
+free speech as a legal right is not originally American, but the strongest and clearest modern form of it did come from the U.S. Constitution.
 ::
 
 The most impotent documented thing about Free-Speech in USA in First Amendment in American constitution:
@@ -51,29 +51,25 @@ psychologists have done lot of [research](https://www.psychologytoday.com/us/bas
 
 Motivated reasoning is a cognitive bias where people's reasoning and judgment are influenced by their motivations and desires. This means they are more likely to accept information and arguments that align with their existing beliefs and motivations, and they may be less receptive to information that contradicts them.
 
+More specifically, motivated reasoning can be driven by a variety of motivations, many of them are emotional, social, or identity. Religion is actually one of the clearest areas where motivated reasoning shows up. because religious beliefs often tie deeply into **identity, community, morality, and emotion**.
+
 **Long story short, motivated reasoning is believing the world is the way you want to be.**
 
-And because Free-Speech is such a counter intuitive idea, there a good chance that people will engage in motivated reasoning.
+And because Free-Speech is such a counter intuitive idea, there is a good chance that people will engage in motivated reasoning.
 
 ## So what is not included in the context of Free-Speech?
 
-Here are some stories where people bring up free speech as a defense (wrongly).
+Here are some stories where people bring up free speech (wrongly)
 
 - a1
 - a2
 
 ## Is Free Speech Only Defined in the USA?
 
-## Free-Speech in Iran
-
-**free-speech in Iran is often granted. but it is limited** to protect:
-
-- **Religious sanctity** (e.g., bans on blasphemy),
-- **Political authority** (e.g., no criticism of the Supreme Leader),
-- **Cultural values** (e.g., modesty, morality codes).
-
-##
+No. Free speech is not only defined in the United States. but the way it’s understood, protected, and limited can vary a LOT from country to country.
 
 ## Wrapping up
 
-There is so much to think and talk about. things like: "What if censorship is needed? Is censorship and violating Free-speech always has bad consequences?
+There is so much more to think and talk about.
+
+Things like: "What if censorship is necessary in certain cases? does violating Free-speech always lead to negative consequences?" But I think it's enough for this blog post. i would like to write about this phenomenon in the future.
