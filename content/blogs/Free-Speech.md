@@ -1,6 +1,6 @@
 ---
 title: Free Speech
-date: 29th Apr 2025
+date: 25th Apr 2025
 description: "Defining Free Speech and Why It is seems a Counter-Intuitive Idea. "
 image: /blog-images/cows.png
 alt: this is alt
@@ -47,22 +47,25 @@ In other words, relying solely on the formal mechanism of legal systems means we
 
 ## So what is this misconception?
 
+One possible answer can be that it's due to a mix of historical, political, cultural, and legal factors.
+
 psychologists have done lot of [research](https://www.psychologytoday.com/us/basics/motivated-reasoning) about something called **motivated reasoning**.
 
 Motivated reasoning is a cognitive bias where people's reasoning and judgment are influenced by their motivations and desires. This means they are more likely to accept information and arguments that align with their existing beliefs and motivations, and they may be less receptive to information that contradicts them.
 
 More specifically, motivated reasoning can be driven by a variety of motivations, many of them are emotional, social, or identity. Religion is actually one of the clearest areas where motivated reasoning shows up. because religious beliefs often tie deeply into **identity, community, morality, and emotion**.
 
+This kind of motivated reasoning is especially obvious in the Middle East, where religion, tradition, and national identity(collectivism) are present.
+
 **Long story short, motivated reasoning is believing the world is the way you want to be.**
 
 And because Free-Speech is such a counter intuitive idea, there is a good chance that people will engage in motivated reasoning.
 
-## So what is not included in the context of Free-Speech?
+## Exceptions to First Amendment.
 
-Here are some stories where people bring up free speech (wrongly)
-
-- a1
-- a2
+- incitement. Saying "Let’s burn down that building right now!" Isn't protected by free-speech. because it could incite imminent lawless action.
+- defamation. But it has to be accusation of fact. Saying "This Person is a pedophile. i know for the fact they are." is could be defamation. Remember it has to be accusation of the fact. it can't just be "I think this person is a jerk". that's an opinion.
+- Some forms of discriminatory that are severe and persistent pattern of behavior that is directed towards an individual or group are banned in **jobs environment or schools.** it's not the general exception of freedom of speech.
 
 ## Is Free Speech Only Defined in the USA?
 
@@ -72,4 +75,4 @@ No. Free speech is not only defined in the United States. but the way it’s und
 
 There is so much more to think and talk about.
 
-Things like: "What if censorship is necessary in certain cases? does violating Free-speech always lead to negative consequences?" But I think it's enough for this blog post. i would like to write about this phenomenon in the future.
+Things like: "What if censorship is necessary in certain cases? does violating Free-speech always lead to negative consequences?" But I think it's enough for this blog post. i would like to write about this phenomenon in the future. The only thing we can agree on right now is that, the ability to disconfirm ideas as a result of free speech is one of the greatest tools in the pursuit of truth.
