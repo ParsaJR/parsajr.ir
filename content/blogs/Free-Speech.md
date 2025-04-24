@@ -1,12 +1,12 @@
 ---
 title: Free Speech
 date: 24th Apr 2025
-description: "Defining it and why It is seems a Counter-Intuitive Idea. "
+description: Defining it and why It is seems a Counter-Intuitive Idea.
 image: /blog-images/cows.png
 alt: this is alt
 tags:
   - social
-draft: true
+draft: false
 ---
 
 If you think the concept of free speech is often misunderstood, you are absolutely right.
@@ -31,7 +31,7 @@ Let's break it down:
 - **Right to Assemble:** People can gather for protests, rallies, or public meetings.
 - **Right to Petition the Government:** You can ask for changes from the government without fear of punishment.
 
-In other words, the idea of free speech is that, it is harder for governments to restrict certain forms of communication than it is **for the government** to restrict other forms of physical actions.
+In other words, the idea of free speech is that, they are designed to make it difficult for governments to interfere with speech. it is harder for governments to restrict certain forms of communication than it is for the government to restrict other forms of physical actions.
 
 in other words, It means **Communication** (like speaking, writing, protesting peacefully) is **more protected** than other kinds of behavior (like stealing, vandalizing, or physical violence).
 
@@ -44,22 +44,6 @@ The enforcement of Free-speech is not largely by the government, It is enforceme
 so the enforcement of these type of legal norms are depends to a very significant amount of public acceptance. If we want to avoid actions that violate the law in any aspects including violating the Free-Speech then we need a fair amount of education about these subjects.
 
 In other words, relying solely on the formal mechanism of legal systems means we are acting too late.
-
-## So what is this misconception?
-
-One possible answer can be that it's due to a mix of historical, political, cultural, and legal factors.
-
-psychologists have done lot of [research](https://www.psychologytoday.com/us/basics/motivated-reasoning) about something called **motivated reasoning**.
-
-Motivated reasoning is a cognitive bias where people's reasoning and judgment are influenced by their motivations and desires. This means they are more likely to accept information and arguments that align with their existing beliefs and motivations, and they may be less receptive to information that contradicts them.
-
-More specifically, motivated reasoning can be driven by a variety of motivations, many of them are emotional, social, or identity. Religion is actually one of the clearest areas where motivated reasoning shows up. because religious beliefs often tie deeply into **identity, community, morality, and emotion**.
-
-This kind of motivated reasoning is especially obvious in the Middle East, where religion, tradition, and national identity(collectivism) are present.
-
-**Long story short, motivated reasoning is believing the world is the way you want to be.**
-
-And because Free-Speech is such a counter intuitive idea, there is a good chance that people will engage in motivated reasoning.
 
 ## Exceptions to First Amendment.
 
