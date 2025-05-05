@@ -16,7 +16,6 @@ if(articles.value.body?.toc?.links) {
  toc = articles.value.body.toc.links
 }
 
-
 const article = computed<BlogPost>(() => {
     return {
         title: articles.value?.title || 'no-title',
@@ -43,7 +42,7 @@ useHead({
 <template>
     <BlogHeader :title="article.title" :image="article.image" :description="article.description" :tags="article.tags"
         :date="article.date" :alt="article.image_alt"></BlogHeader>
-    <BlogToc :tocs="toc" class="hidden md:flex"/>
+    <BlogToc v-if="toc.length" :tocs="toc" class="hidden md:flex"/>
 
     <div class="anchors mt-10 prose sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
         prose-h1:no-underline prose-h2:no-underline prose-a:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
