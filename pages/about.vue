@@ -29,7 +29,7 @@ useHead({
         </h4>
         <ul class="list-disc list-inside p-3 flex flex-col gap-5">
             <li>Languages: Familiar with C# (.Net ecosystem) & Javascript (Vue JS ecosystem).</li>
-            <li>Databases: Familiar with SQL & NoSQL databases.</li>
+            <li>Databases: Familiar with popular SQL & NoSQL databases.</li>
             <li>DevOps: Familiar with Docker, Linux and CI/CD pipelines for efficient development workflows.</li>
         </ul>
         <br>
