@@ -56,5 +56,8 @@ export default defineNuxtConfig({
 	sitemap: {
 		strictNuxtContentPaths: true,
 	},
+	image: {
+		format: ['webp']
+	},
 	compatibilityDate: "2024-09-08",
 });
