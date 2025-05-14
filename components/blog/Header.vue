@@ -16,7 +16,7 @@ const { title = 'no-title', date = 'no-date', alt = '', description = 'no descri
         <h2>{{ title }}</h2>
     </div>
     <div class="flex justify-center">
-        <NuxtImg :src="image" format="webp" fit="contain" sizes="100vw sm:80vw" :alt="alt" class="rounded-2xl"></NuxtImg>
+        <NuxtPicture :src="image" fit="contain" sizes="100vw sm:80vw" :alt="alt" :img-attrs="{class:'rounded-2xl'}"></NuxtPicture>
     </div>
     <div class="m-2 text-center">
         <p class="text-xs dark:text-gray-400 text-gray-600 md:text-lg">{{ description }}</p>

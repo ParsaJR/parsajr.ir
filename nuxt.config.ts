@@ -1,11 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	routeRules: {"/":{prerender: true},"/blogs/**":{prerender: true}},
-	nitro:{
-		prerender:{
+	routeRules: { "/": { prerender: true }, "/blogs/**": { prerender: true } },
+	nitro: {
+		prerender: {
 			crawlLinks: true,
-			routes: ["/sitemap.xml","/robots.txt"]
+			routes: ["/sitemap.xml", "/robots.txt"]
 		}
 	},
 	app: {
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 			}
 		}
 	},
-	experimental:{payloadExtraction: true},
+	experimental: { payloadExtraction: true },
 	modules: [
 		"@nuxt/content",
 		"@nuxt/fonts",
@@ -54,7 +54,11 @@ export default defineNuxtConfig({
 		classSuffix: "",
 	},
 	sitemap: {
-		strictNuxtContentPaths: true,
+		strictNuxtContentPaths: true
+	},
+	site: {
+		url: 'https://parsajr.org',
+		name: 'Parsa Javan',
 	},
 	image: {
 		format: ['webp']
