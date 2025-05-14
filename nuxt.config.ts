@@ -3,9 +3,10 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	routeRules: { "/": { prerender: true }, "/blogs/**": { prerender: true } },
 	nitro: {
+		preset: 'cloudflare-pages',
 		prerender: {
 			crawlLinks: true,
-			routes: ["/sitemap.xml", "/robots.txt"]
+			routes: ["/sitemap.xml", "/robots.txt", "/"]
 		}
 	},
 	app: {
@@ -61,7 +62,8 @@ export default defineNuxtConfig({
 		name: 'Parsa Javan',
 	},
 	image: {
-		format: ['webp']
+		format: ['webp'],
+		provider: 'ipxStatic'
 	},
 	compatibilityDate: "2024-09-08",
 });
