@@ -2,7 +2,7 @@
 title: Free Speech
 date: 24th Apr 2025
 description: Defining it and why It is seems a Counter-Intuitive Idea.
-image: /blog-images/cows.png
+image: /blog-images/cows.webp
 alt: this is alt
 tags:
   - social
