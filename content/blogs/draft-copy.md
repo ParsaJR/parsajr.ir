@@ -6,7 +6,7 @@ image: /blog-images/cat.jpg
 alt: this is alt
 tags:
   - books
-draft: false
+draft: true
 ---
 
 > *Just as modern man consumes both too many calories and calories of no nutritional value, information workers eat data both in excess and from the wrong sources.*
