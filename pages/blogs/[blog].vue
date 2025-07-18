@@ -3,14 +3,15 @@ import type { TocLink } from '@nuxt/content';
 import type { BlogPost } from '~/types/blog';
 
 
-const path = useRoute();
+let path= useRoute().fullPath;
 
-const { data: article } = await useAsyncData(`blog-post-${path.fullPath}`, () => {
- return queryCollection('blogs').path(path.path).first()
+if (path.endsWith('/')) path = path.slice(0,-1)
+const { data: article } = await useAsyncData(`blog-post-${path}`, () => {
+ return queryCollection('blogs').path(path).first()
 })
 
-console.log(path.path)
-console.log(path.fullPath)
+console.log(path)
+
 
 
 if (!article.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
