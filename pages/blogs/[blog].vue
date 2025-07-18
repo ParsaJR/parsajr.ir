@@ -3,28 +3,35 @@ import type { TocLink } from '@nuxt/content';
 import type { BlogPost } from '~/types/blog';
 
 
-const path = useRoute();
+let path= useRoute().fullPath;
 
-const { data: articles, error } = await useAsyncData(`blog-post-${path.fullPath}`, () => queryContent(path.fullPath).findOne())
+if (path.endsWith('/')) path = path.slice(0,-1)
+const { data: article } = await useAsyncData(`blog-post-${path}`, () => {
+ return queryCollection('blogs').path(path).first()
+})
+
+console.log(path)
 
 
-if(!articles.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
+
+if (!article.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
 
 let toc: TocLink[];
 
-if(articles.value.body?.toc?.links) {
- toc = articles.value.body.toc.links
+if(article.value.body?.toc?.links){ 
+ toc = article.value.body.toc.links
 }
 
-const article = computed<BlogPost>(() => {
+
+
+const post = computed<BlogPost>(() => {
     return {
-        title: articles.value?.title || 'no-title',
-        description: articles.value?.description || 'no-description',
-        image: articles.value?.image || 'blog-images/general.jpg',
-        date: articles.value?.date || 'no-date',
-        draft: articles.value?.draft || false,
-        tags: articles.value?.tags || [],
-        image_alt: articles.value?.alt || 'no-alter'
+        title: article.value?.title || 'no-title',
+        description: article.value?.description || 'no-description',
+        image: article.value?.image || 'blog-images/general.jpg',
+        date: article.value?.date || 'no-date',
+        draft: article.value?.draft || false,
+        tags: article.value?.tags || []
     }
 })
 
@@ -40,13 +47,13 @@ useHead({
 
 </script>
 <template>
-    <BlogHeader :title="article.title" :image="article.image" :description="article.description" :tags="article.tags"
-        :date="article.date" :alt="article.image_alt"></BlogHeader>
-    <BlogToc v-if="toc.length" :tocs="toc" class="hidden md:flex"/>
+    <BlogHeader :title="post.title" :image="post.image" :description="post.description" :tags="post.tags"
+        :date="post.date"></BlogHeader>
+    <BlogToc v-if="toc.length > 4" :tocs="toc" class="hidden md:flex"/>
 
     <div class="anchors mt-10 prose sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
         prose-h1:no-underline prose-h2:no-underline prose-a:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
-    <ContentRenderer v-if="articles" :value="articles">
+    <ContentRenderer v-if="article" :value="article">
         <template #empty>Nothing</template>
     </ContentRenderer>
     </div>

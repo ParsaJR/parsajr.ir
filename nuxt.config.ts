@@ -1,12 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	routeRules: { "/": { prerender: true }, "/blogs/**": { prerender: true } },
 	nitro: {
 		prerender: {
 			crawlLinks: true,
-			routes: ["/sitemap.xml", "/robots.txt"] 
-		}
+			routes: ['/'],
+		},
 	},
 	app: {
 		head: {
@@ -23,7 +22,6 @@ export default defineNuxtConfig({
 		"@nuxtjs/tailwindcss",
 		"@nuxt/image",
 		"@nuxtjs/color-mode",
-		"@nuxthq/studio",
 		"@nuxtjs/robots",
 		"@nuxtjs/sitemap"
 	],
@@ -52,9 +50,6 @@ export default defineNuxtConfig({
 		fallback: "dark",
 		storage: "localStorage",
 		classSuffix: "",
-	},
-	sitemap: {
-		strictNuxtContentPaths: true
 	},
 	site: {
 		url: 'https://parsajr.org',

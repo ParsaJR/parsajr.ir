@@ -9,7 +9,7 @@ interface Props {
     draft: boolean
 }
 
-const { path = '/', title = 'no-title', date = 'no-date', description = 'no-description', image = '/blog-images/404.jpg', tags = [], draft = false } = defineProps<Props>()
+const { path = '/', title = 'no-title', date = 'no-date', description = 'no-description', tags = [] } = defineProps<Props>()
 
 </script>
 
