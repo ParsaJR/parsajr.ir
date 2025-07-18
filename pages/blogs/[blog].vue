@@ -5,10 +5,15 @@ import type { BlogPost } from '~/types/blog';
 
 const path = useRoute();
 
-const { data: article } = await useAsyncData(`blog-post-${path.fullPath}`, () => queryCollection('blogs').path(path.fullPath).first())
+const { data: article } = await useAsyncData(`blog-post-${path.fullPath}`, () => {
+ return queryCollection('blogs').path(path.path).first()
+})
+
+console.log(path.path)
+console.log(path.fullPath)
 
 
-if(!article.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
+if (!article.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
 
 let toc: TocLink[];
 
