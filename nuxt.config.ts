@@ -53,9 +53,6 @@ export default defineNuxtConfig({
 		storage: "localStorage",
 		classSuffix: "",
 	},
-	sitemap: {
-		strictNuxtContentPaths: true
-	},
 	site: {
 		url: 'https://parsajr.org',
 		name: 'Parsa Javan',

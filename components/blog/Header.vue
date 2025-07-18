@@ -4,11 +4,10 @@ interface Props {
     date: string,
     tags: string[],
     image: string,
-    alt: string,
     description: string
 }
 
-const { title = 'no-title', date = 'no-date', alt = '', description = 'no description', image = '#', tags = [] } = defineProps<Props>()
+const { title = 'no-title', date = 'no-date', description = 'no description', image = '#', tags = [] } = defineProps<Props>()
 
 </script>
 <template>
@@ -16,7 +15,7 @@ const { title = 'no-title', date = 'no-date', alt = '', description = 'no descri
         <h2>{{ title }}</h2>
     </div>
     <div class="flex justify-center">
-        <NuxtPicture :src="image" fit="contain" sizes="100vw sm:80vw" :alt="alt" :img-attrs="{class:'rounded-2xl'}"></NuxtPicture>
+        <NuxtPicture :src="image" fit="contain" sizes="100vw sm:80vw" :img-attrs="{class:'rounded-2xl'}"></NuxtPicture>
     </div>
     <div class="m-2 text-center">
         <p class="text-xs dark:text-gray-400 text-gray-600 md:text-lg">{{ description }}</p>
