@@ -1,3 +1,6 @@
+import vsharp from 'vite-plugin-vsharp';
+
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
@@ -41,18 +44,20 @@ export default defineNuxtConfig({
 		},
 	},
 	content: {
-		highlight: {
-			theme: "github-dark",
-		},
 		preview: {
-      			api: 'https://api.nuxt.studio'
-    		},
+			api: 'https://api.nuxt.studio'
+		},
 	},
 	colorMode: {
 		preference: "dark",
 		fallback: "dark",
 		storage: "localStorage",
 		classSuffix: "",
+	},
+	vite: {
+		plugins: [
+			vsharp({})
+		]
 	},
 	site: {
 		url: 'https://parsajr.org',

@@ -19,19 +19,23 @@
     "@nuxtjs/tailwindcss": "^6.14.0",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^3.17.7",
-    "vue-component-type-helpers": "^3.0.1"
+    "vue-component-type-helpers": "^3.0.3"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.10",
+    "@iconify-json/carbon": "^1.2.11",
     "@iconify-json/grommet-icons": "^1.2.1",
     "@iconify-json/logos": "^1.2.4",
-    "@iconify-json/material-symbols": "^1.2.29",
+    "@iconify-json/material-symbols": "^1.2.30",
     "@iconify-json/ph": "^1.2.2",
-    "@tailwindcss/typography": "^0.5.16"
+    "@tailwindcss/typography": "^0.5.16",
+    "vite-plugin-vsharp": "^1.9.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "better-sqlite3", "@parcel/watcher","esbuild","sharp"
+      "better-sqlite3",
+      "@parcel/watcher",
+      "esbuild",
+      "sharp"
     ]
   },
   "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
