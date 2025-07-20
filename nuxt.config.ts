@@ -54,11 +54,6 @@ export default defineNuxtConfig({
 		storage: "localStorage",
 		classSuffix: "",
 	},
-	vite: {
-		plugins: [
-			vsharp({})
-		]
-	},
 	site: {
 		url: 'https://parsajr.org',
 		name: 'Parsa Javan',
