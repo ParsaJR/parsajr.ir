@@ -35,7 +35,7 @@ function toggleColorTheme() {
   <div class="container max-w-5xl mx-auto px-8 w-screen h-full">
     <header class="pt-6 pb-8 flex justify-between">
       <div class="inline-block">
-        <ul class="list-none flex items-center gap-2">
+        <ul class="list-none flex items-center gap-2 text-base lg:text-lg">
           <NuxtLink to="/">
             <li class="inline-flex justify-center">Parsa Junior</li>
           </NuxtLink>
@@ -54,7 +54,7 @@ function toggleColorTheme() {
         </ul>
       </div>
       <div>
-        <ul class="list-none flex items-center gap-4">
+        <ul class="list-none flex items-center gap-4 text-base lg:text-lg">
           <li class="inline-flex">
             <!-- <icon name="i-twemoji:flag-iran" size="30px"></icon> -->
           </li>
@@ -63,6 +63,9 @@ function toggleColorTheme() {
           </NuxtLink>
           <NuxtLink to="/about">
             <li class="inline-flex">About</li>
+          </NuxtLink>
+          <NuxtLink :external=true target="_blank" to="https://status.parsajr.org">
+            <li class="inline-flex">Status</li>
           </NuxtLink>
         </ul>
       </div>
@@ -97,3 +100,9 @@ function toggleColorTheme() {
     </div>
   </footer>
 </template>
+
+<style scoped>
+a > li:hover {
+  text-decoration: underline;
+}
+</style>
