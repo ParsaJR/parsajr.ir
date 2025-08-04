@@ -12,7 +12,7 @@
 
 - Vue 3
 - Nuxt 3
-- Nuxt-Content 2
+- Nuxt-Content 3
 - Tailwind CSS
 - [And ...](https://github.com/ParsaJR/ParsaJR.ORG/blob/main/package.json)
 
