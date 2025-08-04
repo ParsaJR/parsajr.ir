@@ -4,9 +4,9 @@
 - [x]  Dark Mode / Light Mode Switch
 - [x]  Table of content
 - [x]  Seo Improvements
-- [ ]  Upgrade to Nuxt Content 3
+- [x]  Upgrade to Nuxt Content 3
 - [ ]  Categories & Search option
-- [ ]  i18n support (English/Persian Blog system)
+- [ ]  i18n support? (English/Persian Blog system)
 
 ## Notable Tools
 
