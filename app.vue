@@ -5,7 +5,7 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 const pathWithSlash = route.path.endsWith("/") ? route.path : `${route.path}/`;
-const canonical = `https://parsajr.org${pathWithSlash}`;
+const canonical = `https://parsajr.ir${pathWithSlash}`;
 
 useHead({
   link: [
@@ -64,7 +64,7 @@ function toggleColorTheme() {
           <NuxtLink to="/about">
             <li class="inline-flex">About</li>
           </NuxtLink>
-          <NuxtLink :external=true target="_blank" to="https://status.parsajr.org">
+          <NuxtLink :external=true target="_blank" to="https://status.parsajr.ir">
             <li class="inline-flex">Status</li>
           </NuxtLink>
         </ul>
@@ -79,7 +79,7 @@ function toggleColorTheme() {
       <a title="Github Account" href="https://github.com/ParsaJR">
         <Icon name="i-grommet-icons-github" size="1.5rem"></Icon>
       </a>
-      <a title="Contact me" href="mailto:hi@parsajr.org">
+      <a title="Contact me" href="mailto:hi@parsajr.ir">
         <Icon name="i-grommet-icons-mail" size="1.5rem"></Icon>
       </a>
     </div>
