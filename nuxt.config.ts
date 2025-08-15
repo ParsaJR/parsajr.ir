@@ -55,7 +55,7 @@ export default defineNuxtConfig({
 		classSuffix: "",
 	},
 	site: {
-		url: 'https://parsajr.org',
+		url: 'https://parsajr.ir',
 		name: 'Parsa Javan',
 	},
 	image: {
