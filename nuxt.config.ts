@@ -45,7 +45,12 @@ export default defineNuxtConfig({
 	},
 	content: {
 		preview: {
-			api: 'https://api.nuxt.studio'
+			api: 'https://api.nuxt.studio',
+			gitInfo: {
+				name: 'parsajr.ir',
+				owner: 'ParsaJR',
+				url: 'https://github.com/ParsaJR/parsajr.ir'
+			}
 		},
 	},
 	colorMode: {
