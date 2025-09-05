@@ -10,7 +10,6 @@ const { data: article } = await useAsyncData(`blog-post-${path}`, () => {
  return queryCollection('blogs').path(path).first()
 })
 
-console.log(path)
 
 
 

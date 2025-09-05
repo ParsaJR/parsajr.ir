@@ -52,6 +52,13 @@ export default defineNuxtConfig({
 				url: 'https://github.com/ParsaJR/parsajr.ir'
 			}
 		},
+		build: {
+			markdown: {
+				highlight: {
+					theme: 'github-dark',
+				}
+			}
+		}
 	},
 	colorMode: {
 		preference: "dark",
