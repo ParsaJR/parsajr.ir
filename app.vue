@@ -82,11 +82,14 @@ function toggleColorTheme() {
       <a title="Contact me" href="mailto:hi@parsajr.ir">
         <Icon name="i-grommet-icons-mail" size="1.5rem"></Icon>
       </a>
+      <a title="Encrypt your message with my public key. if you want to" href="https://github.com/parsajr.gpg">
+        <Icon name="i-grommet-icons:key" size="1.5rem"></Icon>
+      </a>
     </div>
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10 py-2"
     >
-      <p class="text-xs md:text-sm">Parsa • © 2025 • No Right is reserved.</p>
+      <p class="text-xs md:text-sm">Parsa Javan • © 2025 • Nothing is prohibited</p>
     </div>
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10"
