@@ -18,6 +18,7 @@ html {
   font-family: Roboto, sans-serif;
   /* @apply bg-bg_primary_dark;
   @apply text-text_primary_dark; */
+  scroll-behavior: smooth;
 }
 html.dark {
    @apply bg-bg_primary_dark;
