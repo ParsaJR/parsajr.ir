@@ -3,7 +3,7 @@ import type { TocLink } from '@nuxt/content';
 import type { BlogPost } from '~/types/blog';
 
 
-let path= useRoute().fullPath;
+let path= useRoute().fullPath.split('#')[0];
 
 if (path.endsWith('/')) path = path.slice(0,-1)
 const { data: article } = await useAsyncData(`blog-post-${path}`, () => {
