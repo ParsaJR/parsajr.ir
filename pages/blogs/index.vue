@@ -1,7 +1,10 @@
 <script setup lang="ts">
-// const data = await useAsyncData('blogs', () => queryCollection('blogs').sort({_id: -1}).where({draft: false}).find())
+import type { Collections } from '@nuxt/content'
+
+const { locale } = useI18n()
 const { data: posts } = await useAsyncData('blogs', () => {
-    return queryCollection('blogs').order('id','DESC').where('draft','=',false).all()
+    const collection = ('content_' + locale.value) as keyof Collections
+    return queryCollection(collection).order('id', 'DESC').where('draft', '=', false).all()
 })
 
 // formattedData gives some default values to the fields.
@@ -32,7 +35,13 @@ useHead({
 
 <template>
     <div class="flex flex-col gap-3">
-        <h3>All Blog Posts</h3>
+        <div class="flex flex-row gap-3 justify-between">
+            <h3>All Blog Posts</h3>
+            <div class="pr-3 flex gap-5 text-2xl">
+                <NuxtLink :to="$switchLocalePath('en')">🇺🇸</NuxtLink>
+                <NuxtLink :to="$switchLocalePath('fa')">🇮🇷</NuxtLink>
+            </div>
+        </div>
         <hr class="h-1 border-0 dark:bg-gray-500 bg-gray-300">
     </div>
     <template v-for="post in formattedData" :key="post.title">

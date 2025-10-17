@@ -23,7 +23,8 @@ export default defineNuxtConfig({
 		"@nuxt/image",
 		"@nuxtjs/color-mode",
 		"@nuxtjs/robots",
-		"@nuxtjs/sitemap"
+		"@nuxtjs/sitemap",
+		"@nuxtjs/i18n",
 	],
 	tailwindcss: {
 		config: {
@@ -71,4 +72,12 @@ export default defineNuxtConfig({
 		format: ['webp'],
 	},
 	compatibilityDate: "2024-09-08",
+	i18n: {
+		locales: [
+			{ code: 'en', name: 'English', language: 'en-US', dir: 'ltr' },
+			{ code: 'fa', name: 'Farsi', language: 'fa-IR', dir: 'rtl' }
+		],
+		defaultLocale: 'en',
+		strategy: 'prefix_except_default',
+	}
 });

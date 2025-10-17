@@ -1,27 +1,28 @@
 <script setup lang="ts">
-import type { TocLink } from '@nuxt/content';
+import type { Collections, TocLink } from '@nuxt/content';
 import type { BlogPost } from '~/types/blog';
+import { withLeadingSlash } from 'ufo'
 
 
-let path= useRoute().fullPath.split('#')[0];
+const { locale } = useI18n()
 
-if (path.endsWith('/')) path = path.slice(0,-1)
-const { data: article } = await useAsyncData(`blog-post-${path}`, () => {
- return queryCollection('blogs').path(path).first()
+console.log(locale.value)
+
+const route = useRoute()
+const slug = computed(() => withLeadingSlash(String(route.params.slug)))
+
+const { data: article } = await useAsyncData(`blog-post-${slug.value}`, async () => {
+    const collection = ('content_' + locale.value) as keyof Collections
+    return await queryCollection(collection).path(slug.value).first()
 })
 
-
-
-
-if (!article.value) throw createError({statusCode: 404,statusMessage: 'Page Not Found'}) 
+if (!article.value) throw createError({ statusCode: 404, statusMessage: 'Post Not Found' })
 
 let toc: TocLink[];
 
-if(article.value.body?.toc?.links){ 
- toc = article.value.body.toc.links
+if (article.value.body?.toc?.links) {
+    toc = article.value.body.toc.links
 }
-
-
 
 const post = computed<BlogPost>(() => {
     return {
@@ -44,23 +45,30 @@ useHead({
     ]
 })
 
+
+const isPersian = locale.value == 'fa' ? true : false
+const fa_classObject = computed(() => ({
+    'text-right': isPersian
+}))
+
 </script>
 <template>
     <BlogHeader :title="post.title" :image="post.image" :description="post.description" :tags="post.tags"
         :date="post.date"></BlogHeader>
-    <BlogToc v-if="toc.length > 4" :tocs="toc" class="hidden md:flex"/>
+    <BlogToc :rtl="isPersian" v-if="toc.length > 4" :tocs="toc" class="hidden md:flex" />
 
-    <div class="anchors mt-10 prose sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
+    <div dir="auto" :class="fa_classObject"
+        class="anchors mt-10 prose sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
         prose-h1:no-underline prose-h2:no-underline prose-a:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
-    <ContentRenderer v-if="article" :value="article">
-        <template #empty>Nothing</template>
-    </ContentRenderer>
+        <ContentRenderer v-if="article" :value="article">
+            <template #empty>Nothing</template>
+        </ContentRenderer>
     </div>
     <BlogSeprator></BlogSeprator>
 </template>
 <style scoped>
- .anchors:deep(a:not(h2 > a)) {
-   text-decoration: none;
+.anchors:deep(a:not(h2 > a)) {
+    text-decoration: none;
     box-shadow:
         inset 0 -2px 0 #42b883,
         0 1px 0 #42b883;
@@ -69,7 +77,8 @@ useHead({
     overflow: hidden;
     font-weight: bold;
 }
- .anchors:deep(a:not(h2>a)):hover{
+
+.anchors:deep(a:not(h2>a)):hover {
     box-shadow:
         inset 0 -30px 0 #42b883,
         0 1px 0 #42b883;
