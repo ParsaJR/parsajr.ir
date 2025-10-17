@@ -89,7 +89,7 @@ function toggleColorTheme() {
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10 py-2"
     >
-      <p class="text-xs md:text-sm">Parsa Javan • © 2025 • Nothing is prohibited</p>
+      <p class="text-xs md:text-sm">Parsa Javan • © 2025 • All articles under CC-BY</p>
     </div>
     <div
       class="container mx-auto max-w-5xl flex items-center justify-center px-10"
