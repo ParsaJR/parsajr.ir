@@ -9,13 +9,13 @@ interface Props {
     draft: boolean
 }
 
-const { path = '/', title = 'no-title', date = 'no-date', description = 'no-description', tags = [] } = defineProps<Props>()
+const { path = '/', title = 'no-title', date = '1970-01-01', description = '', tags = [] } = defineProps<Props>()
 
 </script>
 
 
 <template>
-    <NuxtLink :to="path">
+    <NuxtLink :to="$localePath(path)">
         <div class="ml-2 mt-3">
             <h3 class="text-ellipsis line-clamp-2">{{ title }}</h3>
 
