@@ -34,8 +34,8 @@ useHead({
                 without any particular order:
                 <div class="mt-3 ml-4 flex flex-wrap gap-x-2 justify-center">
                     <span>Golang,</span>
+                    <span>C,</span>
                     <span>JavaScript,</span>
-                    <span>Python,</span>
                     <span>GNU/Linux,</span>
                     <span>Containerization & Orchestration,</span>
                     <span>TCP/IP,</span>
