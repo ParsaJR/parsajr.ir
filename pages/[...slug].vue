@@ -6,10 +6,12 @@ import { withLeadingSlash } from 'ufo'
 
 const { locale } = useI18n()
 
-console.log(locale.value)
-
 const route = useRoute()
-const slug = computed(() => withLeadingSlash(String(route.params.slug)))
+const slug = computed(() => {
+    const rawSlug = route.params.slug[0]
+    const normalized = withLeadingSlash(rawSlug)
+    return normalized
+})
 
 const { data: article } = await useAsyncData(`blog-post-${slug.value}`, async () => {
     const collection = ('content_' + locale.value) as keyof Collections
@@ -67,7 +69,7 @@ const fa_classObject = computed(() => ({
     <BlogSeprator></BlogSeprator>
 </template>
 <style>
-.anchors p a{
+.anchors p a {
     text-decoration: none;
     box-shadow:
         inset 0 0px 0 #42b883,
@@ -78,7 +80,7 @@ const fa_classObject = computed(() => ({
     font-weight: bold;
 }
 
-.anchors p a:hover{
+.anchors p a:hover {
     box-shadow:
         inset 0 -30px 0 #42b883,
         0 1px 0 #42b883;
