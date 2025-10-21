@@ -86,8 +86,8 @@ const fa_classObject = computed(() => ({
         0 1px 0 #42b883;
 }
 
-.line {
+.shiki {
     text-align: left;
-    direction: ltr;
+    direction:ltr;
 }
 </style>
