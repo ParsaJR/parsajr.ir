@@ -6,7 +6,7 @@
 - [x]  Seo Improvements
 - [x]  Upgrade to Nuxt Content 3
 - [ ]  Search option
-- [ ]  i18n support? (English/Persian Blog system)
+- [x]  i18n support? (English/Persian Blog system)
 
 ## Notable Tools
 
