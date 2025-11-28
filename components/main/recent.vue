@@ -11,12 +11,15 @@ const { data: articles } = await useAsyncData('recent-post', () => {
 
 const formattedData = computed(() => {
     return articles.value?.map((article) => {
+        const date = article.date ? new Date(article.date) : null;
+        const formattedDate = date && !isNaN(date.getTime()) ? date.toISOString().split('T')[0] : 'no-date';
+
         return {
             path: article.path || '/',
             title: article.title || 'no-title',
             description: article.description || 'no-description',
             image: article.image || '/blog-images/404.jpg',
-            date: article.date || '1970-01-01',
+            date: formattedDate,
             tags: article.tags || [],
             draft: article.draft || false,
         }

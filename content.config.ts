@@ -1,4 +1,5 @@
-import { defineCollection, defineContentConfig, z } from "@nuxt/content";
+import { defineCollection, defineContentConfig } from "@nuxt/content";
+import { z } from "zod/v4"
 
 
 // commonSchema is used in both english and persian collection.
@@ -7,9 +8,10 @@ const commonSchema = z.object({
 	// TODO: date should be a Actual "Date" type. for better nuxt-studio
 	// developer-experience.(Mayble it also will be problematic for seo?
 	// how does google reads the release date of the posts?)
-	date: z.string(),
+	date: z.date(),
 	image: z.string(),
 	draft: z.boolean(),
+
 })
 
 export default defineContentConfig({

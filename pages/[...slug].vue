@@ -25,17 +25,19 @@ let toc: TocLink[];
 if (article.value.body?.toc?.links) {
     toc = article.value.body.toc.links
 }
-
 const post = computed<BlogPost>(() => {
+    const date = article.value?.date ? new Date(article.value?.date) : null;
+    const formattedDate = date && !isNaN(date.getTime()) ? date.toISOString().split('T')[0] : '1970-01-01';
+
     return {
         title: article.value?.title || 'no-title',
         description: article.value?.description || 'no-description',
         image: article.value?.image || 'blog-images/general.jpg',
-        date: article.value?.date || 'no-date',
+        date: formattedDate,  // Safely formatted date
         draft: article.value?.draft || false,
-        tags: article.value?.tags || []
-    }
-})
+        tags: article.value?.tags || [],
+    };
+});
 
 useHead({
     title: article.value.title,

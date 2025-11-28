@@ -4,16 +4,21 @@ import type { Collections } from '@nuxt/content'
 const { locale } = useI18n()
 const { data: posts } = await useAsyncData('blogs', () => {
     const collection = ('content_' + locale.value) as keyof Collections
-    return queryCollection(collection).order('id', 'DESC').where('draft', '=', false).all()
+    return queryCollection(collection).order('date', 'DESC').where('draft', '=', false).all()
 })
 
+console.log(posts.value)
 // formattedData gives some default values to the fields.
 const formattedData = computed(() => {
     return posts.value?.map((article) => {
+
+        const date = article.date ? new Date(article.date) : null;
+        const formattedDate = date && !isNaN(date.getTime()) ? date.toISOString().split('T')[0] : 'no-date';
+
         return {
             path: article.path || '/',
             title: article.title || 'Post',
-            date: article.date || '',
+            date: formattedDate || '',
             tags: article.tags || [],
             image: article.image || '/blog-images/cat.jpg',
             description: article.description || '',
