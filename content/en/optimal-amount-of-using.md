@@ -13,14 +13,14 @@ The optimal amount of Social-Media Usage for any normal human-being can be
 delegated to a simple rule of thumb, a practical scheme that you can participate
 in quite easily:
 
-**A healthy dose of social media, email, and SMS occurs when you use them
+**A healthy dose of social media, email, and SMS usage occurs when you use them
 primarily in your own purpose.**
 
 ---
-Whether it's because you wanna contact a friend. Or You just wanna grab that 2FA
+Whether it's because you wanna contact a friend for something. Or You just wanna grab that 2FA
 code from your email. That's probably enough for 
 1. Keeping your sanity.
-2. Noticing any important issue.
+2. Noticing any rare important issue.
 
 
 
