@@ -14,7 +14,7 @@ delegated to a simple rule of thumb, a practical scheme that you can participate
 in quite easily:
 
 **A healthy dose of social media, email, and SMS usage occurs when you use them
-primarily in your own purpose.**
+primarily for your own purpose.**
 
 ---
 Whether it's because you wanna contact a friend for something. Or You just wanna grab that 2FA
