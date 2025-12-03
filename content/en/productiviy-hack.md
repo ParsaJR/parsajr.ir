@@ -13,9 +13,9 @@ The only productivity hack that i found useful is:
 
 __Having a unintrupped time in working flow.__
 
-It can be expanded to any other activity as well as formal working hours. Whether it's
-`Lifting some weights in GYM` or `Reading an interesting book` or even
-`spending your time with a person that you care about`.
+This concept can be applied to any other activity as well as formal working
+hours. Whether it's `Lifting some weights in GYM` or `Reading an interesting
+book` or even `spending quality time with a someone you care about`.
 
 Ask yourself: When was the last time you had three or even four completely
 uninterrupted hours to yourself and your work?
