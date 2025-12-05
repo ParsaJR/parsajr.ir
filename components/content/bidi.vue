@@ -1,3 +1,7 @@
 <template>
-	<bdi><slot /></bdi>
+	<div class="unfuckbidi">
+		<bdi>
+			<slot />
+		</bdi>
+	</div>
 </template>
