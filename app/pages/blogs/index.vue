@@ -2,7 +2,7 @@
 import type { Collections } from '@nuxt/content'
 
 const { locale } = useI18n()
-const { data: posts } = await useAsyncData('blogs', () => {
+const { data: posts } = await useAsyncData(`blogs-${locale.value}`, () => {
     const collection = ('content_' + locale.value) as keyof Collections
     return queryCollection(collection).order('date', 'DESC').where('draft', '=', false).all()
 })

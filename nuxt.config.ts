@@ -15,6 +15,12 @@ export default defineNuxtConfig({
 		}
 	},
 	experimental: { payloadExtraction: true },
+	fonts: {
+		defaults: {
+			weights: [300,400,700],
+			styles: ['normal','italic'],
+		}
+	},
 	modules: [
 		"@nuxt/content",
 		"@nuxt/fonts",
@@ -72,6 +78,7 @@ export default defineNuxtConfig({
 		format: ['webp'],
 	},
 	compatibilityDate: "2024-09-08",
+	css: ['~/assets/css/tailwind.css'],
 	i18n: {
 		locales: [
 			{ code: 'en', name: 'English', language: 'en-US', dir: 'ltr' },
