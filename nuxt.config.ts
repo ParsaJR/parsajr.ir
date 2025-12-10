@@ -15,6 +15,12 @@ export default defineNuxtConfig({
 		}
 	},
 	experimental: { payloadExtraction: true },
+	fonts: {
+		defaults: {
+			weights: [300,400,700],
+			styles: ['normal','italic'],
+		}
+	},
 	modules: [
 		"@nuxt/content",
 		"@nuxt/fonts",
