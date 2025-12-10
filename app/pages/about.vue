@@ -21,9 +21,9 @@ useHead({
         <p class="dark:text-gray-300 text-gray-700">I try to do it in a list. So, it goes like this:</p>
         <h4 class="font-bold pt-2">Life in a Nutshell</h4>
         <ul class="list-disc list-inside p-3 flex flex-col gap-5">
-            <li>Expert at the basics as a human being — staying hydrated and fed.</li>
-            <li>Playing video games, reading about all sort of topics and cooking — these are some of my favorite ways
-                to spend my free time.</li>
+            <li>Expert at the basics — staying hydrated and fed.</li>
+            <li>Playing video games, reading about all sort of topics and being
+                bored — these are some of my favorite ways to spend my free time.</li>
         </ul>
         <h4 class="font-bold pt-2">
             Tech Stuff
@@ -38,7 +38,7 @@ useHead({
                     <span>JavaScript,</span>
                     <span>GNU/Linux,</span>
                     <span>Containerization & Orchestration,</span>
-                    <span>TCP/IP,</span>
+                    <span>Computer Networks,</span>
                     <span>Full-Stack Development</span>
                 </div>
             </li>
