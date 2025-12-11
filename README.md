@@ -8,7 +8,7 @@
 - [ ]  Search option
 - [x]  i18n support? (English/Persian Blog system)
 
-## Notable Tools that 
+## Built with 
 
 - Vue 3
 - Nuxt 4
