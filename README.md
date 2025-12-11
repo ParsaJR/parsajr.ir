@@ -8,10 +8,10 @@
 - [ ]  Search option
 - [x]  i18n support? (English/Persian Blog system)
 
-## Notable Tools
+## Notable Tools that 
 
 - Vue 3
-- Nuxt 3
+- Nuxt 4
 - Nuxt-Content 3
 - Tailwind CSS
 - [And ...](https://github.com/ParsaJR/ParsaJR.ORG/blob/main/package.json)
