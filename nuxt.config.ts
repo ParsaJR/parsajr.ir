@@ -84,10 +84,8 @@ export default defineNuxtConfig({
 			{ code: 'en', name: 'English', language: 'en-US', dir: 'ltr' },
 			{ code: 'fa', name: 'Farsi', language: 'fa-IR', dir: 'rtl' }
 		],
-		defaultLocale: 'en',
-		strategy: 'prefix_except_default',
-		detectBrowserLanguage: {
-			useCookie: false,
-		}
+	  defaultLocale: 'en',
+	  strategy: 'prefix_except_default',
+	  detectBrowserLanguage: false,
 	}
 });
