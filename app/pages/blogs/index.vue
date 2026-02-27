@@ -7,7 +7,6 @@ const { data: posts } = await useAsyncData(`blogs-${locale.value}`, () => {
     return queryCollection(collection).order('date', 'DESC').where('draft', '=', false).all()
 })
 
-console.log(posts.value)
 // formattedData gives some default values to the fields.
 const formattedData = computed(() => {
     return posts.value?.map((article) => {
