@@ -8,30 +8,30 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "^3.11.2",
-    "@nuxt/fonts": "^0.12.1",
+    "@nuxt/content": "^3.14.0",
+    "@nuxt/fonts": "^0.14.0",
     "@nuxt/icon": "^1.15.0",
     "@nuxt/image": "^1.11.0",
     "@nuxt/kit": "^3.21.1",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/i18n": "10.1.1",
-    "@nuxtjs/robots": "^5.7.0",
+    "@nuxtjs/i18n": "10.4.0",
+    "@nuxtjs/robots": "^5.7.1",
     "@nuxtjs/sitemap": "^7.6.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "better-sqlite3": "^12.6.2",
+    "better-sqlite3": "^12.10.0",
     "nuxt": "^4.3.1",
     "sharp": "^0.34.5",
-    "vue-component-type-helpers": "^3.2.5"
+    "vue-component-type-helpers": "^3.3.3"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.18",
+    "@iconify-json/carbon": "^1.2.22",
     "@iconify-json/grommet-icons": "^1.2.4",
-    "@iconify-json/logos": "^1.2.10",
-    "@iconify-json/material-symbols": "^1.2.58",
+    "@iconify-json/logos": "^1.2.11",
+    "@iconify-json/material-symbols": "^1.2.75",
     "@iconify-json/ph": "^1.2.2",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^24.10.15",
-    "zod": "^4.3.6"
+    "@types/node": "^24.12.4",
+    "zod": "^4.4.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -41,5 +41,5 @@
       "sharp"
     ]
   },
-  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+  "packageManager": "pnpm@10.34.1+sha512.b58fbde6dca66a929538021581f648b4570b6ca19b18e7cbd7f2c07a7b24454155388dacdf08f2af3678e88a6d1fe04f9d609df24bf51735a060ea041b374ab7"
 }
