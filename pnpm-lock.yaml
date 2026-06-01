@@ -59,7 +59,7 @@ importers:
         version: 1.2.4
       '@iconify-json/logos':
         specifier: ^1.2.10
-        version: 1.2.10
+        version: 1.2.11
       '@iconify-json/material-symbols':
         specifier: ^1.2.58
         version: 1.2.58
@@ -841,8 +841,8 @@ packages:
   '@iconify-json/grommet-icons@1.2.4':
     resolution: {integrity: sha512-Muj6ViEbR235PWxDe3oM3AFVG4BtaeIihfJPhQiHWPShy24MAscq02+T1IFwIMy0MoTw+V71p5EbNa69xF7SmA==}
 
-  '@iconify-json/logos@1.2.10':
-    resolution: {integrity: sha512-qxaXKJ6fu8jzTMPQdHtNxlfx6tBQ0jXRbHZIYy5Ilh8Lx9US9FsAdzZWUR8MXV8PnWTKGDFO4ZZee9VwerCyMA==}
+  '@iconify-json/logos@1.2.11':
+    resolution: {integrity: sha512-fOo4pGEatuyuCFNL+cwquYMa2Im0oJHRHV7lt/Qqs5Ode/lPImHCQcfTtPzZj7qYMPb/h8YHN3TG54uEowrjNQ==}
 
   '@iconify-json/material-symbols@1.2.58':
     resolution: {integrity: sha512-yPDXwGFNZ4Fq6O8NGbMGP7N4lVk8uX+oMwF3rIb6WRv6lID1W+pd9GN/KiM20rxZR36FjrG6TI5+x2LKLHdOnA==}
@@ -3855,6 +3855,10 @@ packages:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
+  js-yaml@4.2.0:
+    resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
+    hasBin: true
+
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -6557,7 +6561,7 @@ snapshots:
       globals: 14.0.0
       ignore: 5.3.2
       import-fresh: 3.3.1
-      js-yaml: 4.1.1
+      js-yaml: 4.2.0
       minimatch: 3.1.5
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
@@ -6601,7 +6605,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/logos@1.2.10':
+  '@iconify-json/logos@1.2.11':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -10056,6 +10060,10 @@ snapshots:
   js-tokens@9.0.1: {}
 
   js-yaml@4.1.1:
+    dependencies:
+      argparse: 2.0.1
+
+  js-yaml@4.2.0:
     dependencies:
       argparse: 2.0.1
 
