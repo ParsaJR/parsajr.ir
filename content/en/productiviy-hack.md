@@ -17,7 +17,7 @@ You need to attention to the quality of the time that you have. Let's say you ha
 
 Also remember that, this is not only the matter of an hours. It can be expanded to the __days__. What do i mean by this?
 
-I mean, it's MUCH more productive to put 2 consecutive days completely to work on something, then to do it in 2 hours everyday throughout the week.
+I mean, if the task is daunting enough, it's MUCH more productive to put 2 consecutive days completely to work on that, then to do it in 2 hours everyday throughout the week. 
 
 Anything more than that, feels like an efficiency
 trap.
