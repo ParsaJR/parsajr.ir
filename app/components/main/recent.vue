@@ -3,7 +3,7 @@ import type { Collections } from '@nuxt/content'
 
 const { locale } = useI18n()
 
-const { data: articles } = await useAsyncData('recent-post', () => {
+const { data: articles } = await useAsyncData(`recent-post-${locale.value}`, () => {
     // Collection name is based on the locale
     const collection = ('content_' + locale.value) as keyof Collections
     return queryCollection(collection).order('date', 'DESC').where('draft', '=', false).limit(3).all()
@@ -17,7 +17,7 @@ const formattedData = computed(() => {
         return {
             path: article.path || '/',
             title: article.title || 'no-title',
-            description: article.description || 'no-description',
+            description: article.description || '',
             image: article.image || '/blog-images/404.jpg',
             date: formattedDate,
             tags: article.tags || [],
