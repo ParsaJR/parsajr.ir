@@ -6,7 +6,7 @@ const { locale } = useI18n()
 const { data: articles } = await useAsyncData('recent-post', () => {
     // Collection name is based on the locale
     const collection = ('content_' + locale.value) as keyof Collections
-    return queryCollection(collection).order('id', 'DESC').where('draft', '=', false).limit(3).all()
+    return queryCollection(collection).order('date', 'DESC').where('draft', '=', false).limit(3).all()
 })
 
 const formattedData = computed(() => {
@@ -25,8 +25,6 @@ const formattedData = computed(() => {
         }
     })
 })
-
-console.log(articles.value)
 </script>
 <template>
     <div class="mt-10 flex gap-2 items-center">
