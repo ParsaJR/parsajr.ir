@@ -1,6 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
+	vite: {
+	    optimizeDeps: {
+	    include: [
+		'@intlify/core',
+		'@intlify/core-base',
+		'@intlify/message-compiler',
+		'@intlify/shared',
+		'@intlify/utils/h3',
+		'ufo',
+		'vue-i18n',
+	    ]
+	    }
+	},
 	nitro: {
 		prerender: {
 			crawlLinks: true,
