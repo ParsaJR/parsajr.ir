@@ -7,12 +7,10 @@ alt: ""
 tags:
   - coding
 draft: false
----
+
 
 
 ## Reflog
-
-
 I wanna explain the reflog command by going into a familar scenario.
 
 What happens when you accidentaly delete a local branch or overwrite a
