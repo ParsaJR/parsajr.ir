@@ -1,5 +1,5 @@
 ---
-title: Obscure Git commands: reflog
+title: "Obscure Git commands: reflog"
 date: 2026-07-05
 description: 
 image: /blog-images/cows.jpg
@@ -7,7 +7,7 @@ alt: ""
 tags:
   - coding
 draft: false
-
+---
 
 
 ## Reflog
