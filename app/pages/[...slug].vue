@@ -59,7 +59,7 @@ const fa_classObject = computed(() => ({
 <template>
     <BlogHeader :title="post.title" :image="post.image" :description="post.description" :tags="post.tags"
         :date="post.date"></BlogHeader>
-    <BlogToc :rtl="isPersian" v-if="toc.length > 4" :tocs="toc" class="hidden md:flex" />
+    <BlogToc :rtl="isPersian" v-if="toc.length > 4 && toc.length < 8" :tocs="toc" class="hidden md:flex" />
 
     <div dir="auto" :class="fa_classObject"
         class="anchors mt-10 prose sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
