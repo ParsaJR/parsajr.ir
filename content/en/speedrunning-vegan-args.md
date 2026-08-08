@@ -8,6 +8,11 @@ tags:
   - controversial
 draft: false
 ---
+
+### Ok, but everyone eats meat?
+
+A popular thing can still be a terrible thing.
+
 ### Ok, but dude, You're just a weak soyboy.
 
 So you're just insulting me rather then engaging with my actual
@@ -18,18 +23,13 @@ arguments. really?
 
 Which doctor? because plently of doctors says the opposite and not all the
 experts are agree. You should actually just cite some research about why vegan
-diet is inherently unheatly, Instead of cite authroites.
+diet is inherently unhealthy, Instead of citing authroites.
 
 
 ### Ok, but you are also killing a lot of plants, what about them?
 
 Plants don't have a central nerve system. But either way, why you appealing to
 hypocrisy instead of the actual arguments for veganism?
-
-
-### Ok, but everyone eats meat?
-
-A popular thing can still be a terrible thing.
 
 ### Ok, but eating meat still legal. 
 
@@ -42,14 +42,12 @@ would be justified just because it's **The way things are?** really?
 
 ### Ok, but what about all these vegans that got sick?
 
-What about all the meat-eaters who got sick? I can cherry pick too?!
-
-
+What about all the meat-eaters who got sick? I can cherry pick too.
 
 ### Ok, but going vegan does not end all the animal abuse right? 
 
 You can still make a difference at the individual level right? Do you think for
-example it's pointless to be not racism, while that does not stop  racism
+example it's pointless to be not racist, while that does not stop racism
 as a whole?
 
 
@@ -61,7 +59,8 @@ This is called a Personal Anectode. Really?
 
 ### Ok, but if we stop eating animal products, they get over-populate right?
 
-If we stop consuming animal products, humans also stop breeding and raising them systematically.
+If we stop consuming animal products, humans also stop breeding and raising them
+systematically.
 
 ### Continue
 Veganism is one of those controversial topics that annoys people for some
