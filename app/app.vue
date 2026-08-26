@@ -79,7 +79,7 @@ function toggleColorTheme() {
       <a title="Github Account" href="https://github.com/ParsaJR">
         <Icon name="i-grommet-icons-github" size="1.5rem"></Icon>
       </a>
-      <a title="Contact me" href="mailto:hi@parsajr.ir">
+      <a title="Contact me" href="mailto:parsajr@proton.me">
         <Icon name="i-grommet-icons-mail" size="1.5rem"></Icon>
       </a>
       <a title="Encrypt your message with my public key. if you want to" href="https://github.com/parsajr.gpg">
