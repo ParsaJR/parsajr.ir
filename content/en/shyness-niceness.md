@@ -99,7 +99,7 @@ You don't know your strengths. You don't feel worthy. The first one is actually
 familiar for people who have an experience going to job interviews.  The
 strengths and weakness of the interviewee, is the kind of subject that
 interviewer asks from the interviewee in a usual interview process.  It is often
-subjects to some jokes too [https://youtu.be/dPiqPK631HE?t=108](Example). The
+subjects to some jokes too [Example](https://youtu.be/dPiqPK631HE?t=108). The
 goal of this question might not really related to this subject, but this
 question also shows how self-aware you are.
 
