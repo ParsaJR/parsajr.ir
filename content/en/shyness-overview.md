@@ -9,13 +9,6 @@ tags:
 draft: false
 ---
 
-This series consists of several parts:
-
-1. **Overview** <- You are here
-2. Fear of rejection
-3. The solution
-4. My own journey
-
 ## Overcoming with shyness: Overview
 
 If you are reading this post, you probably know what `shyness` or
@@ -47,7 +40,7 @@ especially when a person is around other people.
 judged, embarrassed, or humiliated.
 
 Shyness and social-anxiety is a common disorder that effect i believe more than
-millions of people in my country.
+millions.
 
 These types of social challenges are incredibly common. During these challenges,
 it's so common to feel most people around you doesn't have these kind
@@ -89,11 +82,11 @@ patient and better listener.
 The real goal however, is to look at your life where you feel so limited and
 have too much filter on yourself. Eliminating a feeling that you can't do the
 things that are really matter to you. What i mean in general is, how much grows
-opportunity you lost because you never initiated a conversation with some
-one. This can be any kind of opportunity:
+opportunity you lost because you never initiated a conversation with
+someone. This can be any kind of opportunity:
 
 - A job opportunity. The job maket is rough these days. Making some friends
-  might end up helping you to find a great opportunity to show yourself to just
+  might end up helping you to find a great opportunity to show yourself to
   get involve in the job market. 
   
 - Creating a loving relationship with a beautiful partner. A truly life-changing
@@ -145,4 +138,4 @@ growing up.
 Social anxiety at its core, is some type of patterns that you are learned wrong
 along your life experience. **But it can be unlearned**
 
-Who cares? let's just focus on the solution alright?
+Who cares? let's just focus on the solution.
